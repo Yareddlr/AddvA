@@ -1,0 +1,437 @@
+*{
+    box-sizing: border-box;
+    }
+body{
+   
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    width: 35%;
+    height: auto;
+}
+.logo p{
+    color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+}
+.navegacion{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.navv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+
+}
+li a{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+list-style: none;
+}
+ul{
+    text-decoration: none;
+list-style: none;
+}
+
+nav li{
+    margin: 5px 10px;
+}
+.InfoButton{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#infobutton{
+    width: 165px;
+height: 39px;
+border-radius: 30px;
+background: #6248FF;
+color: white;
+border: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#infobutton:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
+
+
+/*inicio section1*/
+.section1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+#imgsection1{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 416px;
+height: 393px;
+}
+.ServicioFacebookads1{
+  width: 400px;  
+  height: 500px;
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+#texto1{
+    color: #F1742C;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#texto2{
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#texto3{
+    color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ServicioFacebookads2{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+  }
+
+  #botonsection1{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
+color: #FFF;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
+position: absolute;
+right: 26%;
+top: 85%;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+display: flex;
+transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #botonsection1:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
+/*Inicio section2*/
+  #imgsection2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 416px;
+height: 393px;
+}
+.ServicioFacebookads11{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .ServicioFacebookads22{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+  }
+  #botonsection11{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
+color: #FFF;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
+position: absolute;
+left: 26%;
+top: 85%;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #botonsection11:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
+
+  /*inicio footer*/
+  .fotter{
+    width: 100%;
+    height: 600px;
+    background: url(./Fondofotter.png); 
+    background-repeat: no-repeat; 
+     background-size: cover;
+     position: relative;
+ }
+ 
+ #Titulofotter{
+     color: #000;
+ font-family: Roboto;
+ font-size: 35px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ position: absolute;
+ left: 50%;
+ top: 15%;
+ transform: translate(-50%,-50%);
+ cursor: pointer;
+ }
+ 
+ #accesosfooter{
+     display: flex;
+     position: absolute;
+     left: 50%;
+ top: 33%;
+ transform: translate(-50%,-50%);
+ }
+ 
+ #accesosfooter a{
+    margin: 0px 45px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    width: 222px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    
+    }
+    #accesosfooter p{
+        margin: 0px 45px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 200px;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        
+        }
+ #linea1{
+     width: 1112px;
+ height: 0.5px;
+ background: rgba(255, 255, 255, 0.50);
+ position: absolute;
+ left: 50%;
+ top: 45%;
+ transform: translate(-50%,-50%);
+ }
+ #linea2{
+     width: 1112px;
+ height: 0.5px;
+ background: rgba(255, 255, 255, 0.50);
+ position: absolute;
+ left: 50%;
+ top: 75%;
+ transform: translate(-50%,-50%);
+ }
+ 
+ form {
+     width: 500px;
+     height: 200px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+ }
+ 
+ #Nombre{
+     width: 247px;
+ height: 45px;
+ border-radius: 20px;
+ background: #FFF;
+ border: none;
+ }
+ 
+ #Email{
+     width: 247px;
+ height: 45px;
+ border-radius: 20px;
+ background: #FFF;
+ border: none;
+ position: absolute;
+ top: 27%;
+     left: 0%;
+ }
+ #input{
+     width: 143px;
+ height: 45px;
+ border-radius: 20px;
+ background: #6248FF;
+ border: none;
+ color: #FFF;
+ font-family: Roboto;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 700;
+ position: absolute;
+ top: 12%;
+ left: 60%;
+ cursor: pointer;
+ transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ #input:hover{
+     background-color: rgb(36, 54, 120);
+     color: #FFF;
+ }
+ #Newsletter{
+     position: absolute;
+     left: 20%;
+     top: 51%;
+     color: #FFF;
+ font-family: Roboto;
+ font-size: 25px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+ #facebook{
+     position: absolute;
+     left: 10%;
+     top:90%;
+     cursor: pointer;
+ }
+ #insta{
+     position: absolute;
+     left: 13%;
+     top:90%; 
+     cursor: pointer;
+ }
+ 
+ #Avisop{
+     color: rgba(255, 255, 255, 0.50);
+ font-family: Roboto;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ position: absolute;
+ left: 60%;
+ top: 95.5%;
+ margin: 0px;
+ cursor: pointer;
+ }
+ 
+ #Derechos{
+     color: #949AAF;
+ font-family: Roboto;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ position: absolute;
+ left: 70%;
+ top: 95%;
+ margin: 0px;
+ cursor: pointer;
+ }
+ 
+ #blur{
+     width: 192px;
+ height: 192px;
+ background: rgba(255, 255, 255, 0.30);
+ filter: blur(100px);
+     z-index: 0;
+     position: absolute;
+     top: 30%;
+ }
+ #blur2{
+     width: 192px;
+ height: 192px;
+ background: rgba(255, 255, 255, 0.30);
+ filter: blur(100px);
+     z-index: 0-1;
+     position: absolute;
+     top: 30%;
+     right: 5%;
+ }
+ #botonsection111{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
+color: #FFF;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
+position: absolute;
+right: 26%;
+top: 89%;
+transition: background-color 0.3s ease, color 0.3s ease;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  #botonsection111:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
