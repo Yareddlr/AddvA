@@ -6,8 +6,6 @@
 <?php
 include("conexion.php");
 
-
-
 if (isset($_POST['register'])) {
     if (
         strlen($_POST['name']) >= 1 &&

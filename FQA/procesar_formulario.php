@@ -13,18 +13,22 @@ if ($conn->connect_error) {
 }
 
 // Procesar datos del formulario
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
     $nombre = $_POST["Nombre"];
     $email = $_POST["Email"];
 
-    // Insertar datos en la base de datos
-    $sql = "INSERT INTO usuarios (nombre, email) VALUES ('$nombre', '$email')";
+    // Insertar datos en la base de datos usando prepared statements
+    $stmt = $conn->prepare("INSERT INTO usuarios (nombre, email) VALUES (?, ?)");
+    $stmt->bind_param("ss", $nombre, $email);
 
-    if ($conn->query($sql) === TRUE) {
-        echo "Registro exitoso";
+    if ($stmt->execute()) {
+    echo "Registro exitoso";
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $stmt->error;
     }
+
+    // Cerrar la declaración
+    $stmt->close();
 }
 
 // Cerrar conexión
