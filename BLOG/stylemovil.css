@@ -1,0 +1,283 @@
+@media (max-width: 767px) {
+    
+    .iconhamburguer  {
+        display: flex;
+        width: 40px;
+        position: absolute;
+        right: 5%;
+
+       
+    }
+    .navv{
+        display: none;
+    }
+    .InfoButton{
+        display: none;
+    }
+    .navegacion{
+        align-items: center;
+        height: 75px;
+        position: relative;
+    }
+    .logo img {
+        margin: 0px;
+        margin-left: 5px;
+        width: 90px;
+        
+    }
+    .sectio1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: -10;
+    }
+
+    #img1{
+        margin: 0px;
+        margin-top: 15px;
+        width: 380px;
+        z-index: -1;
+    }
+    #text1{
+        width: 380px;
+        font-size: 15px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+.blog{
+    z-index: -1;
+}
+
+    #know{
+        margin: 0px;
+        margin-top: 20px;
+    }
+#thefirst{
+    font-size: 15px;
+    width: 380px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.imgdisplay{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img48{
+    width: 300px;
+    height: 250px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#img49{
+    width: 300px;
+    height: 250px;
+    margin: 0px;  
+}
+#get{
+    
+    margin:10px;
+    margin-bottom: 0px;
+}
+
+#useful{
+    font-size: 15px;
+    width: 380px;
+    margin-left: 0px;
+}
+
+#img50{
+    width: 380px;
+    margin-left: 0px;
+}
+#always{
+    margin-left: 0px;
+}
+#establishing{
+    width: 380px;
+    font-size: 15px;
+    margin-left: 0px;
+}
+#accesosfooter{
+    display: flex;
+    position: absolute;
+    left: 50%;
+top: 33%;
+text-align: center;
+justify-content: center;
+width: 300px;
+
+}
+
+#accesosfooter a{
+margin: 0px 15px;
+color: #FFF;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+cursor: pointer;
+text-decoration: none;
+display: flex;
+text-align: center;
+
+
+}
+
+    .fotter{
+        width: 100%;
+    }
+    #linea1{
+        width: 100%;
+    }
+    #lineas2{
+        width: 100%;
+    }
+form{
+width: 150px;
+height: 120px;
+left: 50%;
+top: 63%;
+transform: translate(-50%,-50%);
+}
+    #Nombre{
+width: 150px;
+height: 35px;
+font-size: 12px;
+    }
+    #Email{
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+        top: 35%; 
+    }
+    #Newsletter{
+        font-size: 20px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 300px;
+        transform: translate(-50%,-50%);
+    }
+    #input{
+        width: 115px;
+        height: 30px;
+        font-size: 12px;
+        left: 50%;
+        top: 82%;
+        transform: translate(-50%,-50%);
+        
+    }
+
+    #facebook{
+        position: absolute;
+        left: 10%;
+        top:90%;
+        cursor: pointer;
+    }
+    #insta{
+        position: absolute;
+        left: 20%;
+        top:90%; 
+        cursor: pointer;
+    }
+    #Avisop{
+        color: rgba(255, 255, 255, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 20%;
+    top: 95.5%;
+    margin: 0px;
+    cursor: pointer;
+    }
+    
+    #Derechos{
+        color: #949AAF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 94%;
+    margin: 0px;
+    cursor: pointer;
+    }
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px); /* Opcional: agrega un efecto de desplazamiento */
+        transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave */
+    }
+    
+    .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #1C274C;
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 1000;
+        display: none; /* Oculta la barra lateral por defecto */
+       
+        
+    }
+    
+    .sidebar-links {
+        list-style: none;
+        padding: 20px;
+    }
+    
+    .sidebar-links li {
+        margin-bottom: 25px;
+        cursor: pointer;
+        
+    }
+    
+    .sidebar-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    
+    
+    /* Estilos para el icono de cierre de la barra lateral */
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    /* Estilos adicionales para dispositivos móviles */
+    @media only screen and (max-width: 768px) {
+        /* Oculta la barra de navegación en pantallas grandes */
+        .navv {
+            display: none;
+        }
+    
+        /* Muestra la barra lateral en dispositivos móviles */
+        .sidebar {
+            display: block;
+           
+            
+        }
+    }
+    
+}
