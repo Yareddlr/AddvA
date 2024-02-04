@@ -12,7 +12,6 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Procesar datos del formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
     $nombre = $_POST["Nombre"];
     $email = $_POST["Email"];
