@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylemovil3.css">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="stylemovilhome.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,11 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
 
     if ($stmt->execute()) {
         ?>
+        
         <header class="navegacion">
     <div class="logo">
         <img src="./Logo_addva-removebg-preview.png" alt="">
         </div>
-        <div class="sidebar">
+  <div class="sidebar">
     <!-- Botón de cierre de la barra lateral -->
     <span class="close-btn">&times;</span>
     
@@ -66,10 +67,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
     
     <nav class="navv">     
         <ul class="navigation">
-        <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>
-                <li><a href="http://localhost/PROYECTO_ADDVA/SERVICIOS/index.html">¿Que servicios ofrecemos</a></li>
-                <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Precuntas Frecuentes</a></li>
-                <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contactanos</a></li>
+        <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.html">Inicio</a></li>
+          <li><a href="http://localhost/PROYECTO_ADDVA/SERVICIOS/index.html">¿Que servicios ofrecemos</a></li>
+          <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Precuntas Frecuentes</a></li>
+          <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contactanos</a></li>
         </ul>
     </nav>
     <div class="InfoButton">
@@ -94,6 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
 </div>
 <div id="linea1"></div>
 <div id="linea2"></div>
+
 
 <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
     <g clip-path="url(#clip0_17_31)">
@@ -124,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
 <div id="blur2"></div>
 <script src="animacion2.js"></script>
 </footer>       
-   
+
         <?php
     } else {
     echo "Error: " . $stmt->error;

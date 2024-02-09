@@ -1,0 +1,803 @@
+@media (max-width: 767px) {
+   
+       
+        
+    .iconhamburguer  {
+        display: flex;
+        width: 40px;
+        
+
+       
+    }
+    .sectionregistro{
+        width: 100%;
+        height: 450px;
+    }
+.complet{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 400px;
+}
+    #reloj{
+        width: 300px;
+        position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    }
+    .success{
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position: absolute;
+        top: 1%;
+    }
+    .back{
+        top: 90%;
+    }
+   .navv{
+       display: none;
+   }
+    .InfoButton{
+        display: none;
+    }
+    .navegacion{
+        align-items: center;
+        height: 75px;
+        
+        position: fixed;
+    top: 0%;
+    z-index: 1000; 
+    background-color: #FFF;
+    }
+    .logo img {
+        margin: 0px;
+        margin-left: 5px;
+        width: 90px;
+        
+    }
+    .logo{
+        width: 355px;
+        
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+      
+    }
+.Presentacion{
+    height: 200px;
+    left: 2%;
+}
+    #tituloprincipal{
+        font-size: 35px;
+        width: 300px;
+    }
+    #tituloprincipal span{
+        font-size: 35px;
+    }
+    #descripciontitulo{
+        font-size: 15px;
+        width: 340px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    #infobutton2{
+        width: 155px;
+        font-size: 13px;
+        height: 30px;
+        margin: 2px;
+    position: absolute;
+    top: 106%;
+    left: 10%;
+
+    }
+    .imagenes{
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        z-index: 0;
+        
+    }
+    #embudo{
+        width: 100px;
+        height: 113px;
+        top: 10%;
+    }
+    #tablero{
+        width: 100px;
+        height: 60px;
+    }
+    #cubo{
+    width: 30px;
+    height: 30px;
+    left: 8%;
+    }
+    #triangulo{
+        width: 37px;
+        height: 30px;
+        right: 25%;
+        top: 60%;
+    }
+    #paco{
+        width: 43px;
+        height: 34px;
+        left: 17%;
+    }
+    #tiroalblanco{
+       width: 93px;
+       height: 59px; 
+       right: 20%;
+       
+    }
+    #planta{
+        width: 42px;
+        height: 72px;
+        top: 20%;
+    }
+    #engranes{
+        width: 54px;
+        height: 24px;
+    }
+    #laptop{
+        width: 89px;
+        height: 99px;
+        top: 60%;
+    }
+    #bola{
+        width: 30px;
+        height: 21px;
+        top: 70%;
+        right: 10%;
+    }
+    #tarjeta{
+        width: 95px;
+        height: 50px;
+        top: 75%;
+    }
+    
+    #cubochico{
+        top: 21%;
+
+    }
+
+    .first{
+       background-image: url(./fondomovil.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 1700px ;
+       display: flex;
+       justify-content: center;
+       
+       
+       
+    }
+.caja1{
+    
+left: 25%;
+top: 5%;
+}
+   
+.caja2{
+    
+    left: 25%;
+    top: 21%; 
+}
+
+.caja3{
+    
+    left: 25%;
+    top: 37%;  
+}
+
+.caja4{
+    
+    left: 25%;
+    top: 53%; 
+}
+
+.descripcionsection{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 400px;
+    top: 85%;
+    
+   
+   
+  
+}
+.TextoListo{
+   right: 10%;
+}
+#subtitulo{
+    width: 360px;
+    text-align: center;
+}
+
+.section2{
+    height: 1100px;
+    justify-content: center;
+}
+#imgElijeaddva {
+width: 260px;
+height: 268px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 15%;
+}
+.PorqueAddva{
+    width: 380px;
+    top: 30%;
+    position: absolute;
+    
+    left: 5%;
+}
+
+#Titulosection2{
+    text-align: center;
+}
+#Textodescripcion{
+width: 380px;
+}
+#butonSection2{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 125%;
+}
+
+.section3{
+    height: 820px;
+    width: 100%;
+}
+.Imgmundo{
+    width: 390px;
+    height: 400px;
+    position: absolute;
+    top: 1%;
+    
+    left: 4%;
+}
+#imgmundo{
+    width: 228px;
+height: 210px;
+position: absolute;
+left: 23%;
+top: 10%;
+}
+#globeimg{
+    position: absolute;
+    top: 50%;
+    width: 115px;
+height: 60px;
+}
+#globeimg2{
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    width: 115px;
+    height: 60px;
+}
+#globeimg3{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+    width: 90px;
+height: 50px;
+}
+#globeimg4{
+    position: absolute;
+    top: 65%;
+    right: 18%;
+    width: 90px;
+height: 50px;
+}
+#globeimg5{
+    position: absolute;
+    top: 75%;
+    right: 32%;
+    width: 70px;
+height: 40px;
+}
+#globeimg6{
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    width: 70px;
+height: 40px;
+}
+.Numerodeclientes{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+   
+}
+.Numerodeclientes2{
+    position: absolute;
+    top: 68%;
+    left: 25%;
+   
+}
+.Numerodeclientes3{
+    position: absolute;
+    top: 86%;
+    left: 25%;
+    
+}
+
+
+.section4{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.imgsection4{
+    width: 398px;
+    height: 450px;
+    position: absolute;
+    
+    left: 5%;
+    top: 5%;
+}
+
+.Loservicios{
+    width: 380px;
+}
+.servicios{
+    position: absolute;
+width: 398px;
+
+left: 5%;
+top: 42%;
+}
+#DescripcionServicio{
+    width: 370px;
+}
+#Verservicios{
+    transform: translate(-50%,50%);
+    left: 50%;
+   
+    
+}
+#Nuestroservicios{
+    text-align: center;
+}
+#cubosection1{
+    position: absolute;
+    width: 109px;
+height: 114px;
+left: 35%;
+top: 32%;
+}
+#cubosection2{
+    position: absolute;
+    width: 67px;
+height: 72px;
+left: 0%;
+top: 27%;
+}
+#cubosection3{
+    position: absolute;
+    width: 67px;
+height: 72px;
+left: 38%;
+top: 5%;
+}
+#cubosection4{
+    position: absolute;
+    width: 67px;
+    height: 72px;
+right: 5%;
+top: 27%;
+flex-shrink: 0;
+}
+#cubosection5{
+    position: absolute;
+    width: 48px;
+height: 52px;
+flex-shrink: 0;
+right: 20%;
+top: 70%;
+}
+
+#cubosection6{
+    position: absolute;
+    width: 48px;
+height: 52px;
+flex-shrink: 0;
+left: 15%;
+top: 70%;
+}
+#cubosection7{
+    position: absolute;
+    width: 58px;
+height: 62px;
+left: 17%;
+top: 45%;
+}
+#cubosection8{
+    position: absolute;
+    width: 58px;
+height: 62px;
+right: 23%;
+top: 45%;
+}
+
+#cubosection9{
+    position: absolute;
+    width: 58px;
+height: 62px;
+right: 24%;
+top: 30%;
+}
+
+#cubosection10{
+    position: absolute;
+    width: 58px;
+height: 62px;
+left: 20%;
+top: 30%;
+}
+
+#cubosection11{
+    position: absolute;
+    width: 58px;
+height: 62px;
+left: 41%;
+top: 59%;
+}
+
+#cubosection12{
+    position: absolute;
+    width: 58px;
+    height: 62px;
+left: 17%;
+top: 14%;
+}
+#cubosection13{
+    position: absolute;
+    width: 58px;
+height: 62px;
+right: 25%;
+top: 14%;
+}
+#cubosection14{
+    position: absolute;
+    width: 40px;
+height: 42px;
+right: 40%;
+top: 22%;
+}
+
+#cubosection15{
+    position: absolute;
+    width: 40px;
+height: 42px;
+left: 35%;
+top: 22%;
+}
+
+#cubosection16{
+    position: absolute;
+    width: 40px;
+height: 42px;
+left: 30%;
+top: 55%;
+}
+#cubosection17{
+    position: absolute;
+    width: 40px;
+height: 42px;
+right: 36%;
+top: 55%;
+}
+
+#imgsection5{
+    width: 166px;
+    height: 134px;
+    left: 5%;
+}
+#textocontacto{
+    width: 200px;
+    font-size: 20px;
+    top: 8%;
+}
+#contactar{
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 90%;
+}
+.section5{
+    height: 220px;
+}
+.section6{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.formcontacto{
+    width: 400px;
+    position: absolute;
+    
+    left: 3%;
+    top: 10%;
+}
+.info{
+    top: 0%;
+}
+#svg1{
+    position: absolute;
+    top: 71.5%;
+    left: 0%;
+    z-index: -1;
+    
+}
+#svg2{
+    position: absolute;
+    top: -4.3%;
+    right: 0%;
+    z-index: -1;
+    width: 300px;
+}
+#Contact{
+    color: #3B3663;
+}
+#deja{
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    top: 16%;
+    color: #696687;
+}
+
+#form1{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    
+}
+#Nombre1{
+    top: 5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border-bottom: 1px solid #c0baf6
+
+}
+
+#apellido{
+    top:22%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    margin-left: 0px;
+    border-bottom: 1px solid #c0baf6
+
+}
+#Movil{
+    top:39%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    margin-left: 0px;
+    border-bottom: 1px solid #c0baf6
+}
+#Email1{
+    top:54%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    margin-left: 0px;
+    border-bottom: 1px solid #c0baf6
+}
+#mensaje{
+    top:74%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    margin-left: 0px;
+    width: 300px;
+    border-bottom: 1px solid #c0baf6
+
+}
+#input1{
+    top: 95%;
+}
+#accesosfooter{
+    display: flex;
+    position: absolute;
+    left: 50%;
+top: 33%;
+text-align: center;
+justify-content: center;
+width: 300px;
+
+}
+
+#accesosfooter a{
+margin: 0px 15px;
+color: #FFF;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+cursor: pointer;
+text-decoration: none;
+display: flex;
+text-align: center;
+
+
+}
+
+    .fotter{
+        width: 100%;
+    }
+    #linea1{
+        width: 100%;
+    }
+    #lineas2{
+        width: 100%;
+    }
+#form2{
+width: 150px;
+height: 120px;
+left: 50%;
+top: 63%;
+transform: translate(-50%,-50%);
+}
+    #Nombre{
+width: 150px;
+height: 35px;
+font-size: 12px;
+    }
+    #Email{
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+        top: 35%; 
+    }
+    #Newsletter{
+        font-size: 20px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 300px;
+        transform: translate(-50%,-50%);
+    }
+    #input{
+        width: 115px;
+        height: 30px;
+        font-size: 12px;
+        left: 50%;
+        top: 82%;
+        transform: translate(-50%,-50%);
+        
+    }
+
+    #facebook{
+        position: absolute;
+        left: 10%;
+        top:90%;
+        cursor: pointer;
+    }
+    #insta{
+        position: absolute;
+        left: 20%;
+        top:90%; 
+        cursor: pointer;
+    }
+    
+    #Avisop{
+        color: rgba(255, 255, 255, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 20%;
+    top: 95.5%;
+    margin: 0px;
+    cursor: pointer;
+    }
+    
+    #Derechos{
+        color: #949AAF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 94%;
+    margin: 0px;
+    cursor: pointer;
+    }
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px); /* Opcional: agrega un efecto de desplazamiento */
+        transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave */
+    }
+
+    .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .maincontainer{
+        z-index: 1; 
+    }
+
+
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #1C274C;
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 1000;
+        display: none; /* Oculta la barra lateral por defecto */
+       
+        
+    }
+    
+    .sidebar-links {
+        list-style: none;
+        padding: 20px;
+    }
+    
+    .sidebar-links li {
+        margin-bottom: 25px;
+        cursor: pointer;
+        
+    }
+    
+    .sidebar-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    
+    
+    /* Estilos para el icono de cierre de la barra lateral */
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    /* Estilos adicionales para dispositivos móviles */
+    @media only screen and (max-width: 768px) {
+        /* Oculta la barra de navegación en pantallas grandes */
+        .navv {
+            display: none;
+        }
+    
+        /* Muestra la barra lateral en dispositivos móviles */
+        .sidebar {
+            display: block;
+           
+            
+        }
+    }
+
+
+    }
+
+    
+   
+    

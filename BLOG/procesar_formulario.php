@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylemovil3.css">
+    <link rel="stylesheet" href="stylemovil.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
         <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Preguntas Frecuentes</a></li>
         <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contáctanos</a></li>
     </ul>
-</div>
+    </div>
         <div class="iconhamburguer">
             
           <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
           <path d="M4 12H7L20 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
           </svg>
       </div>
-    
+   
     <nav class="navv">     
         <ul class="navigation">
         <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>

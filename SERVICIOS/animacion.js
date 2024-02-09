@@ -18,3 +18,5 @@ document.addEventListener("DOMContentLoaded", function() {
     // Verifica la visibilidad al hacer scroll
     window.addEventListener('scroll', checkVisibility);
 });
+
+

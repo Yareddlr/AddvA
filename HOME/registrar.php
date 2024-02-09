@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="stylemovil2.css">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="stylemovilhome.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,6 +47,7 @@ if (isset($_POST['register'])) {
             <header class="navegacion">
         <div class="logo">
             <img src="./Logo_addva-removebg-preview.png" alt="">
+            </div>
                <!-- Contenido de la barra lateral para dispositivos móviles -->
 <div class="sidebar">
     <!-- Botón de cierre de la barra lateral -->
@@ -68,7 +69,7 @@ if (isset($_POST['register'])) {
               <path d="M4 12H7L20 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
               </svg>
           </div>
-        </div>
+        
         <nav class="navv">     
             <ul class="navigation">
             <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>
@@ -99,10 +100,10 @@ if (isset($_POST['register'])) {
     </div>
     <div id="linea1"></div>
     <div id="linea2"></div>
-    <form id="form1">
-        <input type="Name" id="Nombre1" placeholder="Tu Nombre" required="">
-        <input type="Email" id="Email1" placeholder="Tu Correo" required="">
-        <input id="input1" type="submit" value="¡Enviar!">
+    <form id="form2">
+        <input type="Name" id="Nombre" placeholder="Tu Nombre" required="">
+        <input type="Email" id="Email" placeholder="Tu Correo" required="">
+        <input id="input" type="submit" value="¡Enviar!">
     </form>
     <p id="Newsletter">Suscribete a nuestro Newsletter</p>
     <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
@@ -133,8 +134,7 @@ if (isset($_POST['register'])) {
    <div id="blur"></div>
    <div id="blur2"></div>
 </footer>       
-<script src="animacion.js"></script>
-    <script src="animacion2.js"></script>
+
             <?php
         } else {
             ?>

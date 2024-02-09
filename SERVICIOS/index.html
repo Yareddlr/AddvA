@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylemovil.css">
+    <link rel="stylesheet" href="styleservicios.css">
+    <link rel="stylesheet" href="stylemovilservicios.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>AddvA</title>
 </head>
 <body>
-    <header class="navegacion fade-in">
+    <header class="navegacion ">
         <div class="logo">
-       <a href="http://localhost/PROYECTO_ADDVA/HOME/index.html"><img src="./Logo_addva-removebg-preview.png" alt=""></a> 
+       <a href="http://localhost/PROYECTO_ADDVA/HOME/index.php"><img src="./Logo_addva-removebg-preview.png" alt=""></a> 
         </div>
         <div class="sidebar">
           <!-- Botón de cierre de la barra lateral -->
@@ -22,7 +22,7 @@
           
           <!-- Lista de enlaces de la barra lateral -->
           <ul class="sidebar-links">
-              <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.html">Inicio</a></li>
+              <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/SERVICIOS/index.html">¿Qué servicios ofrecemos?</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Preguntas Frecuentes</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contáctanos</a></li>
@@ -88,9 +88,11 @@
         sobre el rendimiento de tus campañas. Estamos comprometidos a mantenerte informado 
         y empoderarte con los datos que necesitas.</p>
     </div>
-<a  id="botonsection1" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
+    <a  id="botonsection1" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
 </section>
-
+<div class="botnn">
+  <a  id="botonsection11movil" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
+</div>
 
 <section class="section1">
     <img class="fade-in" id="imgsection2" src="./imgsection2.png" alt="">
@@ -120,6 +122,9 @@
     
     <a  id="botonsection11" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
     </section>
+    <div class="botnn">
+      <a  id="botonsection1movil" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
+    </div>
 
     <section class="section1">
         <img class="fade-in" id="imgsection1" src="./imgsection3.png" alt="">
@@ -148,6 +153,9 @@
             </div>
         <a  id="botonsection111" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
         </section>
+        <div class="botnn">
+          <a  id="botonsection1movil" href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">¡Solicitar Informacion!</a>
+        </div>
         
         <footer class="fotter fade-in">
             <p id="Titulofotter">ADDVA</p>
@@ -159,10 +167,10 @@
             </div>
             <div id="linea1"></div>
             <div id="linea2"></div>
-            <form action="procesar.php" method="post">
-                <input type="Name" id="Nombre" placeholder="Tu Nombre" required="">
-                <input type="Email" id="Email" placeholder="Tu Correo" required="">
-                <input id="input" type="submit" value="¡Enviar!">
+            <form action="procesar_formulario.php" method="post">
+              <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre" required="">
+              <input type="email" id="Email" name="Email" placeholder="Tu Correo" required="">
+              <button id="input" name="register">Enviar</button>
             </form>
             <p id="Newsletter">Suscribete a nuestro Newsletter</p>
             <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">

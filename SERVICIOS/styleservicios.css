@@ -25,7 +25,7 @@ margin-left: 10px;
 }
 .navegacion{
     width: 100%;
-    height: 100px;
+    height: 90px;
     display: flex;
     position: fixed;
     top: 0%;
@@ -33,7 +33,7 @@ margin-left: 10px;
     background-color: #FFF;
 
 }
-.iconhamburguer{
+.iconhamburguer {
     display: none;
 }
 .navv{
@@ -94,347 +94,145 @@ justify-content: center;
     color: #FFF;
 }
 
-.fqa{
-    width: 100%;
-    height: 1500px;
-    position: relative;
-    margin-top: 100px;
-}
-.pyr{
 
-    width: 60%;
-    height: 1400px;
-    position: absolute;
-    left: 4%;
-    top: 2%;
+/*inicio section1*/
+.section1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-top: 90px;
+    z-index: 1;
 }
-#Titulo{
-    color: #0A5A88;
+#botonsection1movil{
+    display: none;
+}
+#botonsection11movil{
+    display: none;
+}
+#imgsection1{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 416px;
+height: 393px;
+}
+.ServicioFacebookads1{
+  width: 400px;  
+  height: 500px;
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+#texto1{
+    color: #F1742C;
 font-family: Roboto;
-font-size: 22px;
+font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-position: absolute;
-transform: translate(-50%,-50%);
-left: 50%;
 }
-.preguntas{
-    width: 741px;
-    position: absolute;
-    top: 4%;
-}
-#txt1{
+#texto2{
     color: #000;
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-margin-left: 50px;
-
+line-height: normal;
 }
-#txt2{
+
+#texto3{
     color: #000;
 font-family: Roboto;
-font-size: 18px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 75px;
 }
-.p{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
-justify-content: center;
-align-items: center;
+.ServicioFacebookads2{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    right: 1%;
+    top: 10%;
+  }
+
+  #botonsection1{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
 color: #FFF;
 font-family: Roboto;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
 position: absolute;
-top: 1.5%;
-left: 0.5%;
-
-}
-.r{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 6%;
-    left: 4%;
-}
-.p1{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
+right: 26%;
+top: 85%;
+text-decoration: none;
 justify-content: center;
 align-items: center;
+display: flex;
+transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #botonsection1:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
+/*Inicio section2*/
+  #imgsection2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 416px;
+height: 393px;
+}
+.ServicioFacebookads11{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .ServicioFacebookads22{
+    width: 400px;  
+    height: 500px;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+  }
+  #botonsection11{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
 color: #FFF;
 font-family: Roboto;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
 position: absolute;
-top: 13.5%;
-left: 0.5%;
-
-}
-.r1{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 17%;
-    left: 4%;
-}
-.p2{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
+left: 26%;
+top: 85%;
+text-decoration: none;
 display: flex;
-justify-content: center;
 align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 25%;
-left: 0.5%;
-
-}
-.r2{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 29.5%;
-    left: 4%;
-}
-.p3{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
 justify-content: center;
-align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 37.5%;
-left: 0.5%;
-
-}
-.r3{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #botonsection11:hover{
+    background-color: rgb(36, 54, 120);
     color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 42%;
-    left: 4%;
-}
-.p4{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 49.5%;
-left: 0.5%;
-
-}
-.r4{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 53%;
-    left: 4%;
-}
-.p5{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 62.5%;
-left: 0.5%;
-
-}
-.r5{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 67%;
-    left: 4%;
 }
 
-.p6{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 75%;
-left: 0.5%;
-
-}
-.r6{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 79.5%;
-    left: 4%;
-}
-
-.p7{
-    width: 29px;
-height: 29px;
-border-radius: 10px;
-background: #F6BA5F;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-position: absolute;
-top: 87.5%;
-left: 0.5%;
-
-}
-.r7{
-    width: 29px;
-    height: 29px;
-    border-radius: 10px;
-    background: #6248FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;  
-    position: absolute;
-    top: 92%;
-    left: 4%;
-}
-
-#imgfqa{
-    width: 295px;
-height: 805px;
-position: absolute;
-right: 8%;
-top: 18%;
-}
-
-
-.fotter{
+  /*inicio footer*/
+  .fotter{
     width: 100%;
     height: 600px;
     background: url(./Fondofotter.png); 
@@ -628,10 +426,36 @@ top: 18%;
      top: 30%;
      right: 5%;
  }
- .sidebar{
-     display: none;
- }
- .success{
+ #botonsection111{
+    width: 165px;
+    height: 40px;
+    border-radius: 30px;
+background: #6248FF;
+color: #FFF;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+cursor: pointer;
+position: absolute;
+right: 26%;
+top: 89%;
+transition: background-color 0.3s ease, color 0.3s ease;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  #botonsection111:hover{
+    background-color: rgb(36, 54, 120);
+    color: #FFF;
+}
+.sidebar{
+    display: none;
+}
+.success{
     font-family: Roboto;
     font-size: 25px;
     text-align: center;
@@ -688,8 +512,8 @@ top: 18%;
      .back a{
          text-decoration: none;
          color: #FFF;
-     }
- @media only screen and (min-width: 767px) {
+         }
+@media only screen and (min-width: 767px) {
     /* Estilos específicos para dispositivos con un ancho máximo de 767px (pantallas más pequeñas, como móviles) */
     .fade-in {
         opacity: 0;

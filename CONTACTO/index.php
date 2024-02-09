@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylemovil.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="stylemovil2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
     <header class="navegacion">
         <div class="logo">
-        <a href="http://localhost/PROYECTO_ADDVA/HOME/index.html"><img src="./Logo_addva-removebg-preview.png" alt=""></a>
+        <a href="http://localhost/PROYECTO_ADDVA/HOME/index.php"><img src="./Logo_addva-removebg-preview.png" alt=""></a>
           </div>
           <div class="sidebar">
             <!-- Botón de cierre de la barra lateral -->
@@ -22,7 +22,7 @@
             
             <!-- Lista de enlaces de la barra lateral -->
             <ul class="sidebar-links">
-                <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.html">Inicio</a></li>
+                <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>
                 <li><a href="http://localhost/PROYECTO_ADDVA/SERVICIOS/index.html">¿Qué servicios ofrecemos?</a></li>
                 <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Preguntas Frecuentes</a></li>
                 <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contáctanos</a></li>
@@ -39,7 +39,7 @@
         
         <nav class="navv">     
             <ul class="navigation">
-            <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.html">Inicio</a></li>
+            <li><a href="http://localhost/PROYECTO_ADDVA/HOME/index.php">Inicio</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/SERVICIOS/index.html">¿Que servicios ofrecemos</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/FQA/index.html">Precuntas Frecuentes</a></li>
               <li><a href="http://localhost/PROYECTO_ADDVA/CONTACTO/index.php">Contactanos</a></li>
@@ -73,7 +73,7 @@
         <input type="Email" id="Email" name="email" placeholder="Tu Correo" required="">
         <input type="Phone" id="Movil" name="phone" placeholder="Tu telefono" required="">
         <textarea name="message" id="mensaje" name="message" placeholder="Dejanos un mensaje" cols="40" rows="10"></textarea>
-        <button id="input" name="register">Enviar</button>
+        <button id="input" name="register">Quiero mas informacion</button>
 
         
     </form>
@@ -97,10 +97,10 @@
     </div>
     <div id="linea1"></div>
     <div id="linea2"></div>
-    <form id="form1">
-        <input type="Name" id="Nombre1" placeholder="Tu Nombre" required="">
-        <input type="Email" id="Email1" placeholder="Tu Correo" required="">
-        <input id="input1" type="submit" value="¡Enviar!">
+    <form id="form1" action="procesar_formulario.php" method="post">
+        <input type="Name" id="Nombre1" name="Nombre" placeholder="Tu Nombre" required="">
+        <input type="Email" id="Email1" name="Email" placeholder="Tu Correo" required="">
+        <input id="input1" type="submit"name="register" value="¡Enviar!">
     </form>
     <p id="Newsletter">Suscribete a nuestro Newsletter</p>
     <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">

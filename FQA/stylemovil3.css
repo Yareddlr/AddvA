@@ -61,84 +61,40 @@
         width: 355px;
         
     }
-    .sectio1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: -10;
-    }
-
-    #img1{
-        margin: 0px;
-        margin-top: 15px;
-        width: 380px;
-        z-index: -1;
-    }
-    #text1{
-        width: 380px;
-        font-size: 15px;
-        margin: 0px;
-        margin-top: 10px;
-    }
-.blog{
+.fqa{
+    height: 3100px;
+    position: relative;
     z-index: -1;
 }
-
-    #know{
-        margin: 0px;
-        margin-top: 20px;
-    }
-#thefirst{
-    font-size: 15px;
-    width: 380px;
-    margin: 0px;
-    margin-top: 15px;
+.preguntas{
+    width: 400px;
+}
+#Titulo{
+    color: #0A5A88;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+position: absolute;
+top: 2%;
+margin: 5px;
+transform: translate(-50%,-50%);
+left: 50%;
+width: 220px;
+}
+.pyr{
+    width: 400px;
+    height: 2240px;
+   position: absolute;
+   top: 0%;
 }
 
-.imgdisplay{
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#imgfqa{
+    position: absolute;
+    top: 73%;
+
 }
 
-#img48{
-    width: 300px;
-    height: 250px;
-    margin: 0px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-#img49{
-    width: 300px;
-    height: 250px;
-    margin: 0px;  
-}
-#get{
-    
-    margin:10px;
-    margin-bottom: 0px;
-}
-
-#useful{
-    font-size: 15px;
-    width: 380px;
-    margin-left: 0px;
-}
-
-#img50{
-    width: 380px;
-    margin-left: 0px;
-}
-#always{
-    margin-left: 0px;
-}
-#establishing{
-    width: 380px;
-    font-size: 15px;
-    margin-left: 0px;
-}
 #accesosfooter{
     display: flex;
     position: absolute;
@@ -253,7 +209,7 @@ font-size: 12px;
         transform: translateY(20px); /* Opcional: agrega un efecto de desplazamiento */
         transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave */
     }
-    
+
     .fade-in.visible {
         opacity: 1;
         transform: translateY(0);
@@ -317,3 +273,6 @@ font-size: 12px;
     }
     
 }
+
+
+
