@@ -1,10 +1,10 @@
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
    
-   
+       
         
     .iconhamburguer  {
         display: flex;
-        width: auto;
+        width: 40px;
         
 
        
@@ -47,61 +47,50 @@
     }
     .navegacion{
         align-items: center;
-        height: 150px;
+        height: 75px;
         
         position: fixed;
     top: 0%;
     z-index: 1000; 
     background-color: #FFF;
     }
-    .navegacion svg{
-        width: 80px;
-        height: 80px;
-    }
     .logo img {
         margin: 0px;
         margin-left: 5px;
-        width: 150px;
+        width: 90px;
         
     }
     .logo{
-        width: 85%;
+        width: 355px;
         
     }
     .maincontainer{
         display: flex;
-        position: relative;
-        height: 950px;
         flex-direction: column;
-        width: 767px;
-        margin-top: 150px;
-        padding: 5%;
-
       
     }
 .Presentacion{
-    width: 620px;
-    height: auto;
+    height: 200px;
     left: 2%;
 }
     #tituloprincipal{
-        font-size: 70px;
-        width: auto;
+        font-size: 35px;
+        width: 300px;
     }
     #tituloprincipal span{
-        font-size: 70px;
+        font-size: 35px;
     }
     #descripciontitulo{
-        font-size: 30px;
-        width: auto;
+        font-size: 15px;
+        width: 340px;
         margin-left: 5px;
         margin-bottom: 0px;
         margin-top: 0px;
     }
     #infobutton2{
-        width: 240px;
-        font-size: 20px;
-        height: 50px;
+        width: 155px;
+        font-size: 13px;
+        height: 30px;
         margin: 2px;
     position: absolute;
     top: 106%;
@@ -109,382 +98,277 @@
 
     }
     .imagenes{
-        width: 600px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
         position: absolute;
-        top: 55%;
-        left: 11%;
+        top: 47%;
+        left: 5%;
         z-index: 0;
         
     }
     #embudo{
-        width: 170px;
-        height: 183px;
-        top: 2%;
+        width: 100px;
+        height: 113px;
+        top: 10%;
     }
     #tablero{
-        width: 150px;
-        height: 110px;
-        top: 50%;
-        left: 32%;
+        width: 100px;
+        height: 60px;
     }
     #cubo{
-    width: 80px;
-    height: 80px;
-    left: 1%;
+    width: 30px;
+    height: 30px;
+    left: 8%;
     }
     #triangulo{
-        width: 87px;
-        height: 80px;
-        right: 10%;
-        top: 50%;
+        width: 37px;
+        height: 30px;
+        right: 25%;
+        top: 60%;
     }
     #paco{
-        width: 93px;
-        height: 84px;
-        left: 11%;
-        top: 5%;
+        width: 43px;
+        height: 34px;
+        left: 17%;
     }
     #tiroalblanco{
-       width: 143px;
-       height: 109px; 
+       width: 93px;
+       height: 59px; 
        right: 20%;
-       top: 30%;
        
     }
     #planta{
-        width: 92px;
-        height: 122px;
-        top: 10%;
+        width: 42px;
+        height: 72px;
+        top: 20%;
     }
     #engranes{
-        width: 94px;
-        height: 54px;
-        left: 10%;
-        top: 30%;
+        width: 54px;
+        height: 24px;
     }
     #laptop{
-        width: 129px;
-        height: 139px;
+        width: 89px;
+        height: 99px;
         top: 60%;
     }
     #bola{
-        width: 80px;
-        height: 55px;
+        width: 30px;
+        height: 21px;
         top: 70%;
         right: 10%;
     }
     #tarjeta{
-        width: 115px;
-        height: 70px;
+        width: 95px;
+        height: 50px;
         top: 75%;
     }
     
     #cubochico{
-        top: 10%;
-        width: 60px;
-    height: 60px;
+        top: 21%;
 
     }
 
     .first{
-       background-image: url(./fondomovil.png) ;
+       background-image: url(./fondomovil.png);
        background-size: cover;
        background-repeat: no-repeat;
-       width: 181%;
-       height: 2250px ;
+       width: 100%;
+       height: 1700px ;
        display: flex;
-       
-       
+       justify-content: center;
        
        
        
     }
 .caja1{
-    top: 5%;
-    left: 30%;
-    width: 321px;
-    height: 352px;
+    
+left: 25%;
+top: 5%;
 }
    
 .caja2{
-    width: 321px;
-    height: 352px;
-    left: 30%;
-    top: 23%; 
+    
+    left: 25%;
+    top: 21%; 
 }
 
 .caja3{
-    width: 321px;
-    height: 352px;
-    left: 30%;
-    top: 41%;  
+    
+    left: 25%;
+    top: 37%;  
 }
 
 .caja4{
-    width: 321px;
-    height: 352px;
-    left: 30%;
-    top: 59%; 
+    
+    left: 25%;
+    top: 53%; 
 }
 
 .descripcionsection{
     transform: translate(-50%,-50%);
     left: 50%;
-    width: 500px;
-    top: 89%;
-
-}
-#BOTON{
-    left: 31%;
-    top: 84%;
-}
-#imgcaja1{
-    width: 123px;
-    height: 104.941px;
-}
-#PPC{
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-#exp{
-    font-size: 22px;
+    width: 400px;
+    top: 85%;
+    
+   
+   
+  
 }
 .TextoListo{
-   position: absolute;
-   left: 20%;
-   top: 29%;
-   width: 400px;
-   
-   
-}
-#TextoListo{
-    font-size: 20px;
-    width: auto;
+   right: 10%;
 }
 #subtitulo{
-    width: 500px;
+    width: 360px;
     text-align: center;
-    font-size: 40px;
-    top: 0%;
 }
-.Listo{
-    top: 33%;
-}
+
 .section2{
-    width: 180%;
-    height: 1750px;
+    height: 1100px;
     justify-content: center;
 }
 #imgElijeaddva {
-width: 369px;
-height: 368px;
+width: 260px;
+height: 268px;
 position: absolute;
 transform: translate(-50%,-50%);
 left: 50%;
-top: 13%;
+top: 15%;
 }
 .PorqueAddva{
-    width: auto;
-    top: 25%;
+    width: 380px;
+    top: 30%;
     position: absolute;
-    height: 1100px;
-    left: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+    left: 5%;
 }
 
 #Titulosection2{
     text-align: center;
-    font-size: 35px;
-    width: 500px;
-    
-   
 }
 #Textodescripcion{
-width: 600px;
-font-size: 25px;
+width: 380px;
 }
 #butonSection2{
     transform: translate(-50%,-50%);
-    left: 46%;
-    top: 113%;
-    width: 340px;
-    height: 55px;
-    font-size: 28px;
-    
+    left: 50%;
+    top: 125%;
 }
 
-#Descripcionsection2{
-    font-size: 30px;
-}
 .section3{
-    height: 1500px;
-    width: 181%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 820px;
+    width: 100%;
 }
 .Imgmundo{
-    width: 600px;
-    height: 500px;
+    width: 390px;
+    height: 400px;
     position: absolute;
-    left: 10%;
+    top: 1%;
+    
+    left: 4%;
 }
 #imgmundo{
-    width: 338px;
-height: 320px;
+    width: 228px;
+height: 210px;
 position: absolute;
-left: 22%;
-top: 0%;
+left: 23%;
+top: 10%;
 }
 #globeimg{
     position: absolute;
     top: 50%;
-    width: 165px;
-height: 110px;
+    width: 115px;
+height: 60px;
 }
 #globeimg2{
     position: absolute;
     right: 1%;
     top: 50%;
-    width: 165px;
-    height: 110px;
+    width: 115px;
+    height: 60px;
 }
 #globeimg3{
     position: absolute;
     top: 65%;
     left: 18%;
-    width: 130px;
-height: 90px;
+    width: 90px;
+height: 50px;
 }
 #globeimg4{
     position: absolute;
     top: 65%;
     right: 18%;
-    width: 130px;
-height: 90px;
+    width: 90px;
+height: 50px;
 }
 #globeimg5{
     position: absolute;
     top: 75%;
     right: 32%;
-    width: 110px;
-height: 80px;
+    width: 70px;
+height: 40px;
 }
 #globeimg6{
     position: absolute;
     top: 75%;
     left: 32%;
-    width: 110px;
-    height: 80px;
+    width: 70px;
+height: 40px;
 }
 .Numerodeclientes{
     position: absolute;
-    top: 45%;
-    left: 33%;
-    width: auto;
+    top: 50%;
+    left: 25%;
    
-}
-
-
-#cantidad{
-    font-size: 90px;
-    height: auto;
-    width: auto;
-}
-#cantidad2{
-    font-size: 90px;
-    height: auto;
-    width: auto;
-}
-#clientes{
-    font-size: 35px;
-    width: 300px;
-    height: auto;
 }
 .Numerodeclientes2{
     position: absolute;
-    top: 63%;
-    left: 33%;
+    top: 68%;
+    left: 25%;
    
 }
 .Numerodeclientes3{
     position: absolute;
-    top: 81%;
-    left: 33%;
+    top: 86%;
+    left: 25%;
     
 }
 
 
 .section4{
-    width: 181%;
-    height: 1500px;
+    width: 100%;
+    height: 1000px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .imgsection4{
-    width: 600px;
-    height: 500px;
+    width: 398px;
+    height: 450px;
     position: absolute;
     
-    left: 12%;
+    left: 5%;
     top: 5%;
 }
 
-
+.Loservicios{
+    width: 380px;
+}
 .servicios{
     position: absolute;
-width: 650px;
-height: auto;
-left: 10%;
+width: 398px;
+
+left: 5%;
 top: 42%;
 }
-#Servicio1{
-font-size: 30px;
-}
 #DescripcionServicio{
-    width: auto;
-    font-size: 25px;
+    width: 370px;
 }
 #Verservicios{
     transform: translate(-50%,50%);
     left: 50%;
-    top: 99%;
-    width: 340px;
-    height: 55px;
-    font-size: 30px;
+   
     
 }
 #Nuestroservicios{
     text-align: center;
-    font-size: 40px;
-    
-}
-#ready{
-    width: 61px;
-    height: 61px;
-    left: -5%;
-    top: 15%;
-}
-#ready2{
-    width: 61px;
-    height: 61px;
-    left: -5%;
-    top: 41%;
-}
-#ready3{
-    width: 61px;
-    height: 61px;
-    left: -5%;
-    top: 68%;
 }
 #cubosection1{
     position: absolute;
@@ -632,36 +516,18 @@ top: 55%;
     top: 90%;
 }
 .section5{
-    width: 181%;
-    height: 500px;
-}
-#textocontacto{
-    font-size: 30px;
-    width: 350px;
-    top: 25%;
-}
-#imgsection5{
-    width: 266px;
-    height: 244px;
-    top: 20%;
-}
-#contactar{
-    width: 340px;
-    height: 55px;
-    font-size: 30px;
-    top: 90%;
-    left: 53%;
+    height: 220px;
 }
 .section6{
-    width: 181%;
-    height: 1000px;
+    width: 100%;
+    height: 750px;
     position: relative;
 }
 .formcontacto{
-    width: 700px;
+    width: 400px;
     position: absolute;
-    height: 800px;
-    left: 4%;
+    
+    left: 3%;
     top: 10%;
 }
 .info{
@@ -669,33 +535,32 @@ top: 55%;
 }
 #svg1{
     position: absolute;
-    top: 77%;
+    top: 71.5%;
     left: 0%;
     z-index: -1;
     
 }
 #svg2{
     position: absolute;
-    top: -3.3%;
+    top: -4.3%;
     right: 0%;
     z-index: -1;
     width: 300px;
 }
 #Contact{
     color: #3B3663;
-    font-size: 40px;
 }
 #deja{
-    font-size: 30px;
-    width: 400px;
+    font-size: 20px;
+    width: 300px;
     text-align: center;
     top: 16%;
     color: #696687;
 }
 
 #form1{
-    height: 500px;
-    width: 700px;
+    height: 350px;
+    width: 400px;
     position: relative;
     
 }
@@ -704,9 +569,7 @@ top: 55%;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    border-bottom: 1px solid #c0baf6;
-    width: 600px;
-    font-size: 20px;
+    border-bottom: 1px solid #c0baf6
 
 }
 
@@ -716,10 +579,7 @@ top: 55%;
     transform: translate(-50%,-50%);
     left: 50%;
     margin-left: 0px;
-    border-bottom: 1px solid #c0baf6;
-    width: 600px;
-    font-size: 20px;
-    margin-bottom: 30px;
+    border-bottom: 1px solid #c0baf6
 
 }
 #Movil{
@@ -728,9 +588,7 @@ top: 55%;
     transform: translate(-50%,-50%);
     left: 50%;
     margin-left: 0px;
-    border-bottom: 1px solid #c0baf6;
-    width: 600px;
-    font-size: 20px;
+    border-bottom: 1px solid #c0baf6
 }
 #Email1{
     top:54%;
@@ -738,9 +596,7 @@ top: 55%;
     transform: translate(-50%,-50%);
     left: 50%;
     margin-left: 0px;
-    border-bottom: 1px solid #c0baf6;
-    width: 600px;
-    font-size: 20px;
+    border-bottom: 1px solid #c0baf6
 }
 #mensaje{
     top:74%;
@@ -749,16 +605,11 @@ top: 55%;
     left: 50%;
     margin-left: 0px;
     width: 300px;
-    border-bottom: 1px solid #c0baf6;
-    width: 600px;
-    font-size: 20px;
+    border-bottom: 1px solid #c0baf6
 
 }
 #input1{
     top: 95%;
-    width: 270px;
-    height: 56px;
-    font-size: 20px;
 }
 #accesosfooter{
     display: flex;
@@ -767,7 +618,7 @@ top: 55%;
 top: 33%;
 text-align: center;
 justify-content: center;
-width: 620px;
+width: 300px;
 
 }
 
@@ -775,7 +626,7 @@ width: 620px;
 margin: 0px 15px;
 color: #FFF;
 font-family: Roboto;
-font-size: 25px;
+font-size: 13px;
 font-style: normal;
 font-weight: 700;
 cursor: pointer;
@@ -787,50 +638,46 @@ text-align: center;
 }
 
     .fotter{
-        width: 181%;
+        width: 100%;
     }
     #linea1{
         width: 100%;
-        top: 42%;
     }
-    #linea2{
+    #lineas2{
         width: 100%;
-        position: absolute;
-        top: 83%;
     }
 #form2{
-width: 300px;
+width: 150px;
 height: 120px;
 left: 50%;
 top: 63%;
 transform: translate(-50%,-50%);
 }
     #Nombre{
-width: 300px;
-height: 45px;
+width: 150px;
+height: 35px;
 font-size: 12px;
     }
     #Email{
-        width: 300px;
-        height: 45px;
+        width: 150px;
+        height: 35px;
         font-size: 12px;
-        top: 45%; 
+        top: 35%; 
     }
     #Newsletter{
-        font-size: 30px;
+        font-size: 20px;
         position: absolute;
-        top: 43%;
+        top: 45%;
         left: 50%;
-        width: 500px;
+        width: 300px;
         transform: translate(-50%,-50%);
-        text-align: center;
     }
     #input{
-        width: 135px;
-        height: 40px;
-        font-size: 20px;
+        width: 115px;
+        height: 30px;
+        font-size: 12px;
         left: 50%;
-        top: 110%;
+        top: 82%;
         transform: translate(-50%,-50%);
         
     }
@@ -870,7 +717,7 @@ font-size: 12px;
     font-weight: 400;
     position: absolute;
     left: 50%;
-    top: 95.5%;
+    top: 94%;
     margin: 0px;
     cursor: pointer;
     }

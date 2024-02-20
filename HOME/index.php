@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylehome.css">
-    <link rel="stylesheet" href="stylemovilhome.css">
+    <link rel="stylesheet" href="stylemovilhomee.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -242,7 +242,7 @@
                 <input type="Name" id="Nombre1" name="name" placeholder="Tu Nombre" required="">
                 <input type="lastname" id="apellido" name="lastname" placeholder="Tu Apellido" required="">
                 <input type="Email" id="Email1" name="email" placeholder="Tu Correo" required="">
-                <input type="Phone" id="Movil" name="phone" placeholder="Tu telefono" required="">
+                <input type="Phone" id="Movil" name="phone" placeholder="Tu Telefono" required="">
                 <textarea name="message" id="mensaje" name="message" placeholder="Dejanos un mensaje" cols="40" rows="10"></textarea>
                 <button id="input1" name="register">Quiero mas informacion</button>
         
@@ -302,7 +302,7 @@
        <div id="blur2"></div>
     </footer>
     <?php
-include("registrar.php");
+
 ?>
     <script src="animacion.js"></script>
     <script src="animacion2.js"></script>
